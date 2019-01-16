@@ -10,7 +10,7 @@
 using namespace std;
 
 const int THRESHOLD = 5; // threshold for star recognizion, if grayscale value > THRESHOLD
-const int m = 6; // limit for number of ones in 3x3 element
+const int m = 8; // limit for number of ones in 3x3 element
 const int L = 36000000; // length from sensor frame
 const int D = 12742000; // diameter of earth
 const double p_length = 1E-5; // pixel length
